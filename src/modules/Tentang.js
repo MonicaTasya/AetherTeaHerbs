@@ -44,13 +44,25 @@ const Tentang = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div>
-            <span className="inline-block  mb-2 text-amber-600">
+            <span
+              className="inline-block  mb-2 text-amber-600"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
               Tentang Kami
             </span>
-            <h2 className="font-serif text-5xl mb-6 text-amber-600">
+            <h2
+              className="font-serif text-5xl mb-6 text-amber-600"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
               Tradisi Rasa <span className="text-green-900">& Kesehatan</span>
             </h2>
-            <div className="space-y-4 text-green-900 text-justify">
+            <div
+              className="space-y-4 text-green-900 text-justify"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
               <p>
                 Perjalanan kami dimulai pada tahun 2015 dengan sebuah janji
                 sederhana bernama Sekecakke. Diambil dari filosofi bahasa Jawa
@@ -98,8 +110,18 @@ const Tentang = () => {
       </div>
 
       <div className="flex flex-col mt-5 lg:items-end lg:mt-0">
-        <h2 className="font-serif text-5xl text-amber-600">Komitmen Kami</h2>
-        <p className="lg:w-1/2 text-justify text-green-900 mt-5">
+        <h2
+          className="font-serif text-5xl text-amber-600"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
+          Komitmen Kami
+        </h2>
+        <p
+          className="lg:w-1/2 text-justify text-green-900 mt-5"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
           Dalam kosmologi klasik, <strong>Aether</strong> adalah elemen
           kelima—sebuah esensi murni yang melampaui tanah, air, udara, dan api.
           Ia adalah medium di mana cahaya merambat, sebuah energi yang mengisi
