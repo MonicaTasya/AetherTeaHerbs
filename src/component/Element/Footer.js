@@ -20,7 +20,7 @@ const Footer = () => {
           </div>
           <p className="text-sm text-stone-300/70">
             Menyajikan kesegaran es teh dan khasiat jamu tradisional Indonesia
-            dengan bahan-bahan alami berkualitas tinggi sejak 2009.
+            dengan bahan-bahan alami berkualitas tinggi sejak 2015.
           </p>
         </div>
         <div className="hidden lg:flex flex-col gap-4">
@@ -46,7 +46,8 @@ const Footer = () => {
             <li className="flex items-start gap-3">
               <MapPin className="w-5 h-5 mt-0.5 text-amber-700" />
               <span className="text-stone-300/70 ">
-                Jl. Pahlawan No. 123, Surabaya, Jawa Timur 60123
+                Jl. Kesatrian, Bintaan, Danguran, Kec. Klaten Sel., Kabupaten
+                Klaten, Jawa Tengah 57425
               </span>
             </li>
             <li className="flex items-center gap-3">
@@ -62,14 +63,14 @@ const Footer = () => {
               <Clock className="w-5 h-5 text-amber-700" />
               <div className=" text-stone-300/70">
                 <p>Senin - Sabtu</p>
-                <p>08.00 - 21.00 WIB</p>
+                <p>08.00 - 22.00 WIB</p>
               </div>
             </li>
             <li className="flex items-center gap-3">
               <Clock className="w-5 h-5 text-amber-700" />
               <div className=" text-stone-300/70">
                 <p>Minggu</p>
-                <p>09.00 - 18.00 WIB</p>
+                <p>09.00 - 22.00 WIB</p>
               </div>
             </li>
           </ul>

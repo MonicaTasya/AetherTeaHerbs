@@ -1,6 +1,7 @@
 "use client";
 import DefaultLayout from "../component/Layout/DefaultLayout";
 import { Award, Heart, Leaf, Users } from "lucide-react";
+import Image from "next/image";
 
 const Tentang = () => {
   const stats = [
@@ -29,6 +30,15 @@ const Tentang = () => {
     <DefaultLayout
       className="bg-linear-to-t from-stone-300 to-white"
       id="tentang"
+      decoration={
+        <Image
+          src="/images/pattern.svg"
+          alt="decoration"
+          width={400}
+          height={400}
+          className="absolute -bottom-38 -left-30 opacity-15 w-150 h-auto"
+        />
+      }
     >
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -42,21 +52,27 @@ const Tentang = () => {
             </h2>
             <div className="space-y-4 text-green-900 text-justify">
               <p>
-                <strong>Aether Tea & Herbs</strong> lahir dari kecintaan kami
-                terhadap warisan kuliner Nusantara. Sejak tahun 2009, kami
-                berkomitmen untuk menyajikan minuman tradisional Indonesia
-                dengan kualitas terbaik.
+                Perjalanan kami dimulai pada tahun 2015 dengan sebuah janji
+                sederhana bernama Sekecakke. Diambil dari filosofi bahasa Jawa
+                yang berarti &quot;memberikan kenyamanan,&quot; Sekecakke lahir
+                sebagai upaya kami melestarikan kearifan lokal melalui racikan
+                rempah tradisional Jawa. Selama bertahun-tahun, kami belajar
+                bahwa kebaikan alam bukan sekadar tentang rasa, melainkan
+                tentang koneksi antara manusia dan energi bumi. Seiring
+                berjalannya waktu, janji tersebut berevolusi menjadi sesuatu
+                yang lebih luas, lebih murni, dan lebih tinggi:{" "}
+                <strong>AETHER Tea & Herbs.</strong>
               </p>
               <p>
-                Setiap tetes es teh kami diseduh dari daun teh pilihan, dan
-                setiap ramuan jamu kami dibuat dari rempah-rempah segar yang
-                dipilih langsung dari petani lokal. Kami percaya bahwa kesehatan
-                dan kesegaran harus bisa dinikmati oleh semua orang.
-              </p>
-              <p>
-                Dengan resep turun-temurun yang telah kami sempurnakan selama
-                bertahun-tahun, kami bangga menjadi bagian dari gaya hidup sehat
-                masyarakat Indonesia.
+                Dalam kosmologi klasik, <strong>Aether</strong> adalah elemen
+                kelima—sebuah esensi murni yang melampaui tanah, air, udara, dan
+                api. Ia adalah medium di mana cahaya merambat, sebuah energi
+                yang mengisi kekosongan alam semesta dengan kehidupan. Memilih
+                nama Aether adalah pernyataan visi kami: bahwa minuman herbal
+                tidak lagi hanya dianggap sebagai &quot;jamu&quot; masa lalu,
+                melainkan esensi kesehatan modern yang murni dan bercahaya. Kami
+                mengambil sari pati terbaik dari bumi untuk menghadirkan harmoni
+                dalam setiap sajian yang Anda nikmati.
               </p>
             </div>
           </div>
@@ -79,6 +95,20 @@ const Tentang = () => {
             ))}
           </div>
         </div>
+      </div>
+
+      <div className="flex flex-col mt-5 lg:items-end lg:mt-0">
+        <h2 className="font-serif text-5xl text-amber-600">Komitmen Kami</h2>
+        <p className="lg:w-1/2 text-justify text-green-900 mt-5">
+          Dalam kosmologi klasik, <strong>Aether</strong> adalah elemen
+          kelima—sebuah esensi murni yang melampaui tanah, air, udara, dan api.
+          Ia adalah medium di mana cahaya merambat, sebuah energi yang mengisi
+          kekosongan alam semesta dengan kehidupan. Memilih nama Aether adalah
+          pernyataan visi kami: bahwa minuman herbal tidak lagi hanya dianggap
+          sebagai &quot;jamu&quot; masa lalu, melainkan esensi kesehatan modern
+          yang murni dan bercahaya. Kami mengambil sari pati terbaik dari bumi
+          untuk menghadirkan harmoni dalam setiap sajian yang Anda nikmati.
+        </p>
       </div>
     </DefaultLayout>
   );
