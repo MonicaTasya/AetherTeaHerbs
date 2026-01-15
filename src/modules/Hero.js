@@ -18,12 +18,12 @@ const Hero = () => {
               sizes="100vw"
               className="object-cover"
             />
-            <div className="absolute inset-0 bg-linear-to-b from-black/60 via-white/40 to-white" />
+            <div className="absolute inset-0 bg-linear-to-b from-black/50 via-white/40 to-white" />
           </>
         }
       >
         <NavbarResolver />
-        <div className="flex flex-col items-center gap-6">
+        <div className="flex flex-col items-center gap-4">
           <p
             data-aos="fade-up"
             data-aos-duration="2000"
@@ -34,7 +34,7 @@ const Hero = () => {
           <div
             data-aos="fade-up"
             data-aos-duration="1000"
-            className="flex flex-col items-center gap-6"
+            className="flex flex-col items-center"
           >
             <h1
               priority="true"
@@ -43,16 +43,16 @@ const Hero = () => {
               Aether Tea & Herbs
             </h1>
             <Image
-              src="/images/logo.webp"
+              src="/images/logo1.webp"
               alt="logo"
-              width={250}
-              height={250}
+              width={500}
+              height={500}
               loading="eager"
-              className="w-auto h-auto"
+              className="w-120 h-auto"
             />
           </div>
           <p className="w-[80vw] md:w-150 text-center text-md md:text-xl text-black">
-            Nikmati kesegaran es teh dan khasiat jamu tradisional Indonesia yang
+            Nikmati kesegaran teh dan khasiat jamu tradisional Indonesia yang
             dibuat dengan bahan pilihan dan resep turun-temurun
           </p>
           <div className="flex flex-row gap-10">
