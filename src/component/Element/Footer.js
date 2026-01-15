@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="flex flex-col gap-4">
           <div className="flex flex-row gap-1 items-center">
             <Image
-              src="/images/logo.webp"
+              src="/images/logo1.webp"
               alt="logo"
               width={50}
               height={50}

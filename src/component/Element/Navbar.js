@@ -23,7 +23,7 @@ const Navbar = () => {
         <div className="fixed inset-x-0 top-0 z-30 flex justify-between items-center p-3 bg-stone-100/60 backdrop-blur-sm rounded-b-2xl">
           <div className="flex flex-row gap-1 items-center">
             <Image
-              src="/images/logo.webp"
+              src="/images/logo1.webp"
               alt="logo"
               width={50}
               height={50}
