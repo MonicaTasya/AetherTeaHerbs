@@ -18,7 +18,7 @@ const Hero = () => {
               sizes="100vw"
               className="object-cover"
             />
-            <div className="absolute inset-0 bg-linear-to-b from-foreground/60 via-foreground/40 to-background" />
+            <div className="absolute inset-0 bg-linear-to-b from-black/60 via-white/40 to-white" />
           </>
         }
       >
@@ -51,7 +51,7 @@ const Hero = () => {
               className="w-auto h-auto"
             />
           </div>
-          <p className="w-[80vw] md:w-150 text-center text-md md:text-xl text-white">
+          <p className="w-[80vw] md:w-150 text-center text-md md:text-xl text-black">
             Nikmati kesegaran es teh dan khasiat jamu tradisional Indonesia yang
             dibuat dengan bahan pilihan dan resep turun-temurun
           </p>

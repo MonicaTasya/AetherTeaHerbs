@@ -9,7 +9,7 @@ const DefaultLayout = ({
   return (
     <section
       className={cn(
-        `relative mx-auto flex flex-col w-full justify-center text-black gap-4 px-[10vw] py-[5vw] lg:px-4 lgpy-10 xl:px-30 xl:py-20 2xl:px-40 overflow-hidden`,
+        `relative mx-auto flex flex-col w-full justify-center items-center text-black bg-white gap-4 px-[10vw] py-[5vw] lg:px-4 lgpy-10 xl:px-30 xl:py-20 2xl:px-40 overflow-hidden`,
         className
       )}
       {...props}

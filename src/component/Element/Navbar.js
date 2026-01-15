@@ -4,6 +4,7 @@ import useIsMobile from "@/src/utils/isMobile";
 import { X, TextAlignJustify } from "lucide-react";
 import { useState } from "react";
 import Image from "next/image";
+import { NavbarResolver } from "../Layout/NavbarResolver";
 
 const Navbar = () => {
   const navItems = [
@@ -33,9 +34,9 @@ const Navbar = () => {
             </h1>
           </div>
           {isOpen ? (
-            <X className="z-30" onClick={toggleMenu} />
+            <X className="z-30 text-black" onClick={toggleMenu} />
           ) : (
-            <TextAlignJustify onClick={toggleMenu} />
+            <TextAlignJustify className="text-black" onClick={toggleMenu} />
           )}
         </div>
       ) : (
@@ -52,7 +53,7 @@ const Navbar = () => {
               Aether Tea & Herbs
             </h1>
           </div>
-          <div className="flex flex-row items-center gap-4 text-md">
+          <div className="flex flex-row items-center gap-4 text-md text-black">
             {navItems.map((item) => (
               <a
                 key={item.href}
@@ -76,7 +77,8 @@ const Navbar = () => {
       )}
       {isOpen && (
         <div className="fixed right-0 top-0 z-20 flex flex-col h-full w-64 items-start pt-16 p-3 bg-stone-100/60 backdrop-blur-sm">
-          <div className="flex flex-col items-start gap-4 text-md">
+          <NavbarResolver />
+          <div className="flex flex-col items-start gap-4 text-md text-black">
             {navItems.map((item) => (
               <a
                 key={item.href}
